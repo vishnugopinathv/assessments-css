@@ -1,0 +1,23 @@
+.list{
+    color:brown;
+}
+.heading{
+    color: red; 
+    font-style: italic;
+}
+.list_item4{
+    text-decoration: underline;
+    font-style: italic;
+}
+span{
+    font-weight: bold;
+}
+a{
+    color: red;
+    font-style: italic;
+    background-color: yellow;
+    font-weight: bold;
+}
+p{
+    color: maroon;
+}
