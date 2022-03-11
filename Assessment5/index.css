@@ -1,0 +1,114 @@
+body{
+    background-color: yellow;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    
+}
+.anim{
+    width: 100px;
+    display: inline-block;
+    height: 100px;
+    margin: 2rem;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.anim1{
+    background-color: rgb(75, 75, 134);
+    animation-name: animation1;
+}
+.anim2{
+    background-color: rgb(129, 99, 99);
+    animation-name: animation2;
+}
+.anim3{
+    background-color: rgb(75, 75, 134);
+    animation-name: animation3;
+    animation-duration: 2s;
+}
+.anim4{
+    animation-name: animation4;
+    background-color: rgb(75, 75, 134);
+}
+.anim5{
+    animation-name: animation5;
+    background-color: brown;
+}
+.anim6{
+    animation-name: animation6;
+    background-color: green;
+}
+@keyframes animation1{
+    0%{
+        transform: skewX(20deg);
+    }
+    50%{
+        transform: skewX(-20deg);
+    }
+    100%{
+        transform: skewX(20deg);
+    }
+}
+@keyframes animation2{
+    0%{
+        transform: skewY(20deg);
+    }
+    50%{
+        transform: skewY(-20deg);
+    }
+    100%{
+        transform: skewY(20deg);
+    }
+}
+@keyframes animation3{
+    from{
+        transform: rotate(180deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes animation4{
+    0%{
+        transform: scaleY(1);
+    }
+    50%{
+        transform:scaleY(0.5)
+       }
+    100%{
+        transform: scaleY(1);
+    }
+}
+@keyframes animation5{
+    0%{
+        transform: scaleX(1);
+    }
+    50%{
+        transform:scaleX(0.5)
+       }
+    100%{
+        transform: scaleX(1);
+    }
+}
+@keyframes animation6{
+    0%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform:rotate(-90deg)
+       }
+    100%{
+        transform: rotate(10deg);
+    }
+}
+a{
+    display: inline-block;
+    font-size: 2rem;
+    margin: 5rem;
+    margin-left: 35rem;
+}
+a:hover{
+    text-decoration: none;
+}
