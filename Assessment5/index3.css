@@ -53,7 +53,6 @@ body{
     width: 400%;
     background-image: url(./road.jpg);
     background-repeat: repeat-x;
-    overflow-x: hidden;
   
    
   
@@ -61,7 +60,6 @@ body{
 .city{
     background-image: url(./city.png);
     background-repeat: repeat-x;
-    overflow-x: hidden;
     height: 16rem;
     width: 400%;
     z-index: 0;
