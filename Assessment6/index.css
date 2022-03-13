@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  background-image: url("./background.jpg");
+  background-size: auto;
+  color: white;
+}
+.menu-bar a {
+  display: inline-block;
+  padding-right: 5rem;
+  color: white;
+  text-decoration: none;
+}
+.menu-bar {
+  position: absolute;
+  right: 3rem;
+  top: 1rem;
+}
+.menu-bar img {
+  position: relative;
+  top: 1rem;
+  /* right: 1rem; */
+}
+nav {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 2rem;
+  gap: 30rem;
+}
+.logo img {
+  height: 3rem;
+  padding-left: 2rem;
+}
+.container-2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+.icon1 {
+  background-image: url("./icon1.png");
+}
+.icon2 {
+  background-image: url("./icon2.png");
+}
+.icon3 {
+  background-image: url("./icon3.png");
+}
+.icon4 {
+  background-image: url("./icon4.png");
+  
+}
+.image-container {
+  height: 15rem;
+  width: 15rem;
+  box-sizing: border-box;
+  padding: 1rem;
+  color: white;
+  border-radius: 1rem;
+  margin: 0 1rem;
+  background-size: 16rem;
+}
+.image-container:hover {
+  transition-duration: 1s;
+  transform: translateY(-15px);
+}
+.icon-container {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: auto auto;
+}
+.text-container h1 {
+  font-size: 6rem;
+}
+.text-container {
+  text-align: left;
+}
+
+.text-container button {
+  padding: 1rem 3rem;
+  display: inline-block;
+  border-radius: 1.5rem;
+  border: 0px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+@media (max-width: 856px) {
+  .text-container h1 {
+    font-size: 3rem;
+  }
+  .icon-container {
+    box-sizing: border-box;
+    padding: 2rem;
+  }
+  .menu-bar {
+    position: absolute;
+    right: 1rem;
+    top: 0;
+  }
+  .menu-bar a{
+    padding-right: 8vw;
+  }
+  .icon-container{
+      grid-template-columns: auto;
+  }
+  .image-container{
+    width: 53vw;
+    background-position: center;
+    background-size: auto;
+  }
+  .text-container{
+        width: 100%;
+        margin-left: 5rem;
+  }
+  .logo{
+      display: inline-block;
+      margin-top: 3rem;
+  }
+  .container-2{
+    position: relative;
+    bottom: 4rem;
+  }
+}
