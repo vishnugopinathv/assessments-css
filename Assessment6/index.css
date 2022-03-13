@@ -18,7 +18,7 @@ body {
 .menu-bar img {
   position: relative;
   top: 1rem;
-  /* right: 1rem; */
+  margin-right: 1rem;
 }
 nav {
   display: grid;
@@ -97,7 +97,7 @@ nav {
     top: 0;
   }
   .menu-bar a{
-    padding-right: 8vw;
+    padding-right: 6vw;
   }
   .icon-container{
       grid-template-columns: auto;
@@ -109,7 +109,7 @@ nav {
   }
   .text-container{
         width: 100%;
-        margin-left: 5rem;
+        margin-left: 4rem;
   }
   .logo{
       display: inline-block;
